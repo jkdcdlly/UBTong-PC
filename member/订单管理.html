@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员中心-订单管理</title>
+<link href="../common/css/com.css" rel="stylesheet" type="text/css" />
+<link href="../common/css/menber.css" rel="stylesheet" type="text/css" />
+<script src="../common/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../common/js/Topmall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--首页头部-->
+<div class="header">
+	<div class="head">
+    	<span class="hello">Hi，欢迎来到顶悦！</span>
+        <a href="###">请登录</a>|
+        <a href="###" class="registered">免费注册</a>
+        <div class="h-right">
+        	<a href="###">购物车&nbsp;<span>0</span>&nbsp;件</a>|
+            <a href="###">客服中心</a>|
+            <a href="###">帮助中心</a>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--首页头部 end-->
+
+<!--Logo和导航-->
+<div class="logos">
+	<div class="logo">
+    	<div class="l-logo"><a href="###"><img src="../common/img/index/logo.png" /></a></div>
+        <div class="nav">
+        	<ul>
+            	<li><a href="###">首页</a></li>
+                <li><a href="###">产品中心</a></li>
+                <li><a href="###">会员套餐</a></li>
+                <li><a href="###">热门活动</a></li>
+                <li><a href="###">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--Logo和导航 end-->
+
+<!--会员中心中心模块-->
+<div class="mains center">
+    <div class="shadow"></div>
+    <div class="main">
+    	<div class="c-left">
+        	<div class="photo">
+            	<span class="p-head"><img src="../common/img/center/img1.jpg" /></span>
+                <p>希丹Zidance</p>
+                <span class="vip"><img src="../common/img/center/vip.png" /></span>
+                <!--不是会员的时候 显示<span class="vip"><img src="../common/img/center/vip-grey.png" /></span>-->
+            </div>
+            <div class="c-nav">
+            	<ul>
+                	<li><a href="###">会员首页</a></li>
+                    <li><a href="###">会员信息</a></li>
+                    <li><a href="###">收藏管理</a></li>
+                    <li><a href="###" class="act">订单管理</a></li>
+                    <li><a href="###">地址管理</a></li>
+                    <li><a href="###">密码管理</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="c-right" id="tab">
+        	<div class="title m-relative">
+            	<h1>订单管理</h1>
+                <div class="tabs-menus">
+                    <ul>
+                        <li><a class="act" href="###">所有订单</a></li>
+                        <li><a href="###">待付款订单</a></li>
+                        <li><a href="###">待配送订单</a></li>
+                        <li><a href="###">待收货订单</a></li>
+                    </ul>
+                    <div class="clr"></div>
+                </div>
+            </div>
+            
+            <div class="my-order">
+                <div class="tabs-items">
+                    <div class="tabs-item">
+                        <div class="search">
+                            <input type="text" prompt="请输入商品名称" />
+                            <input type="text" prompt="请输入商品编号"/>
+                            <a href="###" class="a-search">搜索</a>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="s-table" id="table-del">
+                            <ul>
+                                <li class="top">
+                                    <table>
+                                        <tr>
+                                            <td class="t-name">商品名称</td>
+                                            <td class="t-unit">单价(斤)</td>
+                                            <td class="t-weight">重量</td>
+                                            <td class="t-freight">运费(元)</td>
+                                            <td class="t-sum">总价(元 )</td>
+                                            <td class="t-note">备注</td>
+                                            <td class="t-static">订单状态</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img1.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del act"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img2.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del act"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img3.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a><a href="#" class="blue">查看物流</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del act"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img4.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s-table" id="table-del1">
+                            <ul>
+                                <li class="top">
+                                    <table>
+                                        <tr>
+                                            <td class="t-name">商品名称</td>
+                                            <td class="t-unit">单价(斤)</td>
+                                            <td class="t-weight">重量</td>
+                                            <td class="t-freight">运费(元)</td>
+                                            <td class="t-sum">总价(元 )</td>
+                                            <td class="t-note">备注</td>
+                                            <td class="t-static">订单状态</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img1.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售11</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s-table" id="table-del2">
+                            <ul>
+                                <li class="top">
+                                    <table>
+                                        <tr>
+                                            <td class="t-name">商品名称</td>
+                                            <td class="t-unit">单价(斤)</td>
+                                            <td class="t-weight">重量</td>
+                                            <td class="t-freight">运费(元)</td>
+                                            <td class="t-sum">总价(元 )</td>
+                                            <td class="t-note">备注</td>
+                                            <td class="t-static">订单状态</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img1.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售222</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s-table" id="table-del3">
+                            <ul>
+                                <li class="top">
+                                    <table>
+                                        <tr>
+                                            <td class="t-name">商品名称</td>
+                                            <td class="t-unit">单价(斤)</td>
+                                            <td class="t-weight">重量</td>
+                                            <td class="t-freight">运费(元)</td>
+                                            <td class="t-sum">总价(元 )</td>
+                                            <td class="t-note">备注</td>
+                                            <td class="t-static">订单状态</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li class="order">
+                                    <table>
+                                        <tr class="t-head">
+                                            <td colspan="7">
+                                                <a href="###" class="t-sqr"></a>
+                                                <span>订单编号：101225161565347</span>
+                                                <span>订购时间：2010-12-25 16:15</span>
+                                                <a href="###" class="del"></a>
+                                                <div class="clr"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="t-body">
+                                            <td class="t-name">
+                                                <div class="t-img"><img src="../common/img/center/p-img1.jpg" /></div>
+                                                <div class="t-info"><p>5°海鲜&nbsp;&nbsp;北朝鲜&nbsp;帝王蟹&nbsp;两斤起售333</p></div>
+                                            </td>
+                                            <td class="t-unit td-green">399.00</td>
+                                            <td class="t-weight">2</td>
+                                            <td class="t-freight">10.00</td>
+                                            <td class="t-sum td-green fw">808.00</td>
+                                            <td class="t-note">需开发票</td>
+                                            <td class="t-static last">等待用户支付<a href="###">订单详情</a></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!--页码-->
+            <div class="next-pages" style="margin:20px 0 23px;">
+                <a class="a-up" href="#">&nbsp;</a>
+                <a class="act" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>
+                <a href="#">...10</a>
+                <input id="Text" type="text" value="1" /><span>&nbsp;/&nbsp;13</span>
+                <a class="a-down" href="#">&nbsp;</a>
+            </div>
+            <!--页码 end-->
+        </div>
+             
+        <div class="clr"></div>
+    </div>
+</div>
+<!--会员中心模块 end-->
+<script type="text/javascript">setInputFocus('.search input');orderDel('table-del');orderDel('table-del1');orderDel('table-del2');orderDel('table-del3');setTabClick('tab');</script>
+
+
+<!--底部菜单-->
+<div class="f-navs">
+	<div class="f-nav">
+    	<a href="###">产品中心</a>|
+        <a href="###">会员套餐</a>|
+        <a href="###">客服中心</a>|
+        <a href="###">帮助中心</a>|
+        <a href="###">关于我们</a>
+    </div>
+</div>
+<!--底部菜单 end-->
+
+<!--底部-->
+<div class="foots">
+	<div class="foot" id="foot">
+    	<div class="logo"><img src="../common/img/index/logo1.png" /></div>
+        <p>Fuzhou Skyranch Agricultural Technology Limited     京ICP备11021813号-2</p>
+        <p>客服热线：400-6262-162</p>
+        <div class="contact">
+        	<a href="###" class="a1">微信</a>
+            <a href="###" class="a2">微博</a>
+        </div>
+        <div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>
+        <!--<div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>-->
+        <div class="clr"></div>
+    </div>
+</div>
+<script type="text/javascript">getContact('foot');autoHeight();</script>
+<!--底部 end-->
+</body>
+</html>

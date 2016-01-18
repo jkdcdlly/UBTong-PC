@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>顶悦商城首页</title>
+<link href="../common/css/com.css" rel="stylesheet" type="text/css" />
+<link href="../common/css/Topmall.css" rel="stylesheet" type="text/css" />
+<script src="../common/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../common/js/lunbo.js"></script>
+<script src="../common/js/jquery.roundabout.js" type="text/javascript"></script>
+<script src="../common/js/jquery.roundabout-shapes.js" type="text/javascript"></script>
+<script src="../common/js/Topmall.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	var _obj = $('#HomeBanner');	   
+	$('#HomeBanner > ul').roundabout({ //调用旋转插件
+		minOpacity:1,
+		duration: 800,
+		reflect: true,
+		autoplay:true,
+		autoplayDuration:4000,
+		tilt:0,
+		shape: 'square'
+	});	
+});
+</script>
+</head>
+<body>
+<!--首页头部-->
+<div class="header">
+	<div class="head">
+    	<span class="hello">Hi，欢迎来到顶悦！</span>
+        <a href="###">请登录</a>|
+        <a href="###" class="registered">免费注册</a>
+        <div class="h-right">
+        	<a href="###">购物车&nbsp;<span>0</span>&nbsp;件</a>|
+            <a href="###">客服中心</a>|
+            <a href="###">帮助中心</a>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--首页头部 end-->
+
+<!--Logo和导航-->
+<div class="logos">
+	<div class="logo">
+    	<div class="l-logo"><a href="###"><img src="../common/img/index/logo.png" /></a></div>
+        <div class="nav">
+        	<ul>
+            	<li><a href="###">首页</a></li>
+                <li><a href="###">产品中心</a></li>
+                <li><a href="###">会员套餐</a></li>
+                <li><a href="###">热门活动</a></li>
+                <li><a href="###">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--Logo和导航 end-->
+
+<!--轮播图-->
+<div class="mains l-lunbo">
+	<div class="container">
+        <div class="lunbo">
+            <ul class="pic" id="bannerIndex">
+                <li><a href="###"><img src="../common/img/index/l-img1.jpg" /></a></li>
+                <li><a href="###"><img src="../common/img/index/l-img1.jpg" /></a></li>
+                <li><a href="###"><img src="../common/img/index/l-img1.jpg" /></a></li>
+                <li><a href="###"><img src="../common/img/index/l-img1.jpg" /></a></li>
+                <li><a href="###"><img src="../common/img/index/l-img1.jpg" /></a></li>
+            </ul>
+            <div class="clr"></div>
+            <div class="dot" id="index_numIco">
+            </div>
+        </div>
+    </div>
+    <div class="shadow"></div>
+</div>
+<!--轮播图 end-->
+<script type="text/javascript">
+		var _li = $('#bannerIndex').find('li');
+		var _v;
+		function setWidth(){
+			if($(window).width()>1200){
+				_li.width($(window).width());
+				_v = $(window).width();
+				setImgWidth(_v);
+			}else{
+				_li.width(1200);
+				_v = 1200;		
+				setImgWidth(_v);
+			}
+		}
+		function setImgWidth(_v){
+			$.each(_li,function(i,e){
+				var _this = $(e);
+				var _img = _this.find('img');
+				if(_img.width()>1200){
+					_img.css('margin-left',-(_img.width()-_v)/2);
+				}else{
+					_img.css('width','auto');	
+				}
+			})	
+		}
+		$(window).../commonize(function(e) {
+			_v = $(window).width()>1200? $(window).width():1200;
+            setWidth();
+			setImgWidth(_v);
+        });
+		setWidth();
+</script>
+<script type="text/javascript">
+	var ShowPre1 = new ShowPre({box:"bannerIndex",Pre:"bannerPre",Next:"bannerNext",numIco:"index_numIco",loop:1,auto:1});
+</script>
+
+
+<!--动画效果-->
+<div class="animations">
+	<div class="animation home-banner" id="HomeBanner">
+    	<!--广告旋转效果-->
+        <ul>
+            <li><a href="#" class="gla-inbox"><img src="../common/img/index/img1.jpg"/></a></li>
+            <li><a href="#" class="gla-inbox"><img src="../common/img/index/img2.jpg"/></a></li>
+            <li><a href="#" class="gla-inbox"><img src="../common/img/index/img3.jpg"/></a></li>
+            <li><a href="#" class="gla-inbox"><img src="../common/img/index/img1.jpg"/></a></li>
+        </ul>
+        <!--广告旋转效果-end-->  
+        <div class="clr"></div>      
+    </div>
+</div>
+<!--动画效果 end-->
+
+<!--底部菜单-->
+<div class="f-navs">
+	<div class="f-nav">
+    	<a href="###">产品中心</a>|
+        <a href="###">会员套餐</a>|
+        <a href="###">客服中心</a>|
+        <a href="###">帮助中心</a>|
+        <a href="###">关于我们</a>
+    </div>
+</div>
+<!--底部菜单 end-->
+
+<!--底部-->
+<div class="foots">
+	<div class="foot" id="foot">
+    	<div class="logo"><img src="../common/img/index/logo1.png" /></div>
+        <p>Fuzhou Skyranch Agricultural Technology Limited     京ICP备11021813号-2</p>
+        <p>客服热线：400-6262-162</p>
+        <div class="contact">
+        	<a href="###" class="a1">微信</a>
+            <a href="###" class="a2">微博</a>
+        </div>
+        <div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>
+        <!--<div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>-->
+        <div class="clr"></div>
+    </div>
+</div>
+<script type="text/javascript">getContact('foot');</script>
+<!--底部 end-->
+
+</body>
+</html>

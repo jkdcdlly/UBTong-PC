@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员中心-地址管理</title>
+<link href="../common/css/com.css" rel="stylesheet" type="text/css" />
+<link href="../common/css/menber.css" rel="stylesheet" type="text/css" />
+<script src="../common/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../common/js/Topmall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--首页头部-->
+<div class="header">
+	<div class="head">
+    	<span class="hello">Hi，欢迎来到顶悦！</span>
+        <a href="###">请登录</a>|
+        <a href="###" class="registered">免费注册</a>
+        <div class="h-right">
+        	<a href="###">购物车&nbsp;<span>0</span>&nbsp;件</a>|
+            <a href="###">客服中心</a>|
+            <a href="###">帮助中心</a>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--首页头部 end-->
+
+<!--Logo和导航-->
+<div class="logos">
+	<div class="logo">
+    	<div class="l-logo"><a href="###"><img src="../common/img/index/logo.png" /></a></div>
+        <div class="nav">
+        	<ul>
+            	<li><a href="###">首页</a></li>
+                <li><a href="###">产品中心</a></li>
+                <li><a href="###">会员套餐</a></li>
+                <li><a href="###">热门活动</a></li>
+                <li><a href="###">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--Logo和导航 end-->
+
+<!--会员中心中心模块-->
+<div class="mains center">
+    <div class="shadow"></div>
+    <div class="main">
+    	<div class="c-left">
+        	<div class="photo">
+            	<span class="p-head"><img src="../common/img/center/img1.jpg" /></span>
+                <p>希丹Zidance</p>
+                <span class="vip"><img src="../common/img/center/vip.png" /></span>
+                <!--不是会员的时候 显示<span class="vip"><img src="../common/img/center/vip-grey.png" /></span>-->
+            </div>
+            <div class="c-nav">
+            	<ul>
+                	<li><a href="###">会员首页</a></li>
+                    <li><a href="###">会员信息</a></li>
+                    <li><a href="###">收藏管理</a></li>
+                    <li><a href="###">订单管理</a></li>
+                    <li><a href="###" class="act">地址管理</a></li>
+                    <li><a href="###">密码管理</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="c-right">
+        	<div class="title">
+            	<h1>地址管理</h1>
+            </div>
+            <div class="c-body" id="address">
+            	<div class="show-add">
+                	<ul id="showUl">
+                    	<li class="on act">
+                        	<p class="p-name">希丹Zidance11</p>
+                            <p class="p-address"><span class="p1">福建省</span><span class="p2">福州市</span><span class="p3">鼓楼区</span><span class="p4">北环中路屏山苑B区7F</span></p>
+                            <p class="p-phone">18060759533</p>
+                        </li>
+                        <li>
+                        	<p class="p-name">希丹Zidance22</p>
+                            <p class="p-address"><span class="p1">福建省</span><span class="p2">福州市</span><span class="p3">鼓楼区</span><span class="p4">北环中路屏山苑B区7F</span></p>
+                            <p class="p-phone">0591-56598525</p>
+                        </li>
+                        <li class="last">
+                        	<p class="p-name">希丹Zidance33</p>
+                            <p class="p-address"><span class="p1">福建省</span><span class="p2">福州市</span><span class="p3">鼓楼区</span><span class="p4">北环中路屏山苑B区7F</span></p>
+                            <p class="p-phone">18060759533</p>
+                        </li>
+                        <li class="add-add" id="addLi">
+                        	<a href="###">
+                            	<span class="add"><img src="../common/img/center/add.jpg" /></span>
+                                <p>新增地址</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="clr"></div>
+                    <div class="d-edit">
+                        <a href="###" class="a1"></a>
+                        <a href="###" class="a2"></a>
+                        <a href="###" class="a3"></a>
+                    </div>
+                </div>
+                
+                <!--编辑-->
+                <div class="edit-address" style="display:none">
+                	<h1>新增/修改收货地址</h1>
+                	<table style="margin-bottom:150px;">
+                	<tr>
+                    	<td class="t-left longw">* 收货人姓名：</td>
+                        <td><input type="text" class="long w" id="name" /></td>
+                    </tr>
+                    <tr>
+                    	<td class="t-left">* 所在地区：</td>
+                        <td id="tbs">
+                        <a href="###" class="a-pro a-type w" id="pro">请选择省份</a>
+                        <div class="d-type" id="BoxType1"><ul><li><a href="###" title="0">福建省</a></li><li><a href="###" title="1">江西省</a></li></ul></div>
+                        <a href="###" class="a-pro a-type w" id="city">请选择市级</a>
+                        <div class="d-type" id="BoxType2"><ul></ul></div>
+                        <a href="###" class="a-pro a-type w" id="qu">请选择区级</a>
+                        <div class="d-type" id="BoxType3"><ul></ul></div>
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td class="t-left">* 街道地址：</td>
+                        <td><input type="text" class="long w" id="stree" /><em>不需要重新填写省/市/区</em></td>
+                    </tr>
+                    <tr>
+                    	<td class="t-left">* 固定电话：</td>
+                        <td><input type="text" class="long w" id="phone" /><em>固定电话或者移动电话至少填写其中一个</em></td>
+                    </tr>
+                    <tr>
+                    	<td class="t-left">移动电话：</td>
+                        <td><input type="text" class="long w" id="tel" /><em>固定电话或者移动电话至少填写其中一个</em></td>
+                    </tr>
+                    <tr>
+                    	<td class="t-left">&nbsp;</td>
+                        <td><a href="###" class="a-save" id="save" style="margin-top:18px;">保存／修改</a></td>
+                    </tr>                   
+                </table>
+                </div>
+            
+            </div>	
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--会员中心模块 end-->
+<script type="text/javascript">editAddress('address');setType('tbs');</script>
+
+<!--底部菜单-->
+<div class="f-navs">
+	<div class="f-nav">
+    	<a href="###">产品中心</a>|
+        <a href="###">会员套餐</a>|
+        <a href="###">客服中心</a>|
+        <a href="###">帮助中心</a>|
+        <a href="###">关于我们</a>
+    </div>
+</div>
+<!--底部菜单 end-->
+
+<!--底部-->
+<div class="foots">
+	<div class="foot" id="foot">
+    	<div class="logo"><img src="../common/img/index/logo1.png" /></div>
+        <p>Fuzhou Skyranch Agricultural Technology Limited     京ICP备11021813号-2</p>
+        <p>客服热线：400-6262-162</p>
+        <div class="contact">
+        	<a href="###" class="a1">微信</a>
+            <a href="###" class="a2">微博</a>
+        </div>
+        <div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>
+        <!--<div class="items">
+            <div class="weixinma">
+                <div class="erweima"><img src="../common/img/index/erweimax.png"/></div>	
+                <div class="dot"><img src="../common/img/index/dot.png" /></div>
+            </div>
+        </div>-->
+        <div class="clr"></div>
+    </div>
+</div>
+<script type="text/javascript">getContact('foot');autoHeight();</script>
+<!--底部 end-->
+</body>
+</html>
