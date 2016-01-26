@@ -1,5 +1,5 @@
 # UBTong-PC
-优百通PC商城
+优百通PC商城前端说明文档
 
 #会员中心样式说明
 ##表单输入格式判断 (要引jquery基础包)
@@ -20,6 +20,7 @@
 <script src="res/js/phone-choose.js" type="text/javascript"></script>
 <script type="text/javascript">setTelChoose('Tel');</script>
 ```
+
 - 判断电话号码
 ```
 <label class="phone-font" for="Phone">请输入电话号码：</label><input type="text" value="0591-85476522" id="Phone" class=”text”/>
@@ -27,6 +28,7 @@
 <script src="res/js/phone-choose.js" type="text/javascript"></script>
 <script type="text/javascript">setPhoneChoose('Phone');</script>
 ```
+
 - 判断身份证
 ```
 <label class="idcard-font" for="Phone">请输入身份证：</label><input type="text" value="350582199309144524" id="IDCard" class=”text”/>
@@ -34,6 +36,7 @@
 <script src="res/js/phone-choose.js" type="text/javascript"></script>
 <script type="text/javascript">setIDCardChoose('IDCard');</script>
 ```
+
 - 判断邮箱
 ```
 <label class="mail-font" for="Mail">请输入邮箱：</label><input type="text" value="512615967@99.com" id="Mail" class=”text”/>
@@ -101,6 +104,7 @@
 <label class="form-font"></label>
 <label class="act radio"><input type="radio"/></label><span class="radio-font">男</span><label class="radio"><input type="radio"/></label><span class="radio-font">女</span>
 ```
+
 ##复选按钮
 ####css样式
 1、表单前面文字提示 
@@ -122,12 +126,12 @@
 
 ####布局（要引入js文件）
 ```
-
 <script src="res/js/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="res/js/phone-choose.js" type="text/javascript"></script>
 <a href="###" class="checkbox"></a> <!--选中状态为act-->
 <script type="text/javascript">selectCheckBox('checkbox');</script>
 ```
+
 ##省市区-仿京东选择
 ####css样式
 ```
@@ -142,6 +146,7 @@
 #store-selector.hover .content{ display:block;}
 #store-selector.hover .close{ display:block;}
 ```
+
 ####布局（要引入js文件和css文件）
 ```
 <link href="res/css/common.css" rel="stylesheet" type="text/css" />
@@ -158,12 +163,14 @@
 <div class="clr"></div>
 <script src="res/js/location.js" type="text/javascript"></script>
 ```
+
 ##省市区-普通-三个框
 ####css样式
 ```
 .select {border: solid 1px #000;appearance:none;-moz-appearance:none;background:url(res/img/store-selector/dot.jpg) no-repeat 118px center;-webkit-appearance:none;font-size: 14px;padding-left: 9px;padding-left: 9px;display: inline-block;height:34px;width: 132px;border: 1px solid #e0e0e0;  line-height: 34px;color: #afafaf; margin-right: 15px; padding-right: 14px;}
 .select::-ms-expand { display: none; }
 ```
+
 ####布局
 ```
 <script src="res/js/jquery-1.7.2.min.js" type="text/javascript"></script>
