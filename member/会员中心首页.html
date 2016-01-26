@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>会员中心首页</title>
+<title>会员中心首页-新</title>
 <link href="../common/css/com.css" rel="stylesheet" type="text/css" />
 <link href="../common/css/menber.css" rel="stylesheet" type="text/css" />
 <script src="../common/js/jquery-1.7.2.min.js" type="text/javascript"></script>
@@ -49,7 +49,7 @@
     <div class="main">
     	<div class="c-left">
         	<div class="photo">
-            	<span class="p-head"><img src="../common/img/center/img1.jpg" /></span>
+            	<a href="###" class="p-head"><img src="../common/img/center/img1.jpg" /></a>
                 <p>希丹Zidance</p>
                 <span class="vip"><img src="../common/img/center/vip.png" /></span>
                 <!--不是会员的时候 显示<span class="vip"><img src="../common/img/center/vip-grey.png" /></span>-->
@@ -67,54 +67,140 @@
         </div>
         <div class="c-right">
         	<div class="title">
-            	<h1>会员中心</h1>
+            	<h1>会员中心<p class="c-date">VIP有效期：2015.12.1-2016.12.1</p></h1>
+                 <!--是会员的时候显示 不是会员的时候不显示有效期-->
             </div>
-            <div class="c-body">
-            	<h2>欢迎您！希丹Zidance</h2>
-            	<p class="c-date">会员有效期：2015年10月11日 至 2016年10月11日</p>
-                <!--是会员的时候显示 不是会员的时候不显示有效期-->
-                <div class="c-list">
-                	<ul>
-                    	<li>
-                        	<p class="list-top">73</p>
-                            <p class="list-bott">全部订单</p>
-                        </li>
-                        <li>
-                        	<p class="list-top">573</p>
-                            <p class="list-bott">商品收藏</p>
-                        </li>
-                        <li>
-                        	<p class="list-top"><img src="../common/img/center/tequan.png" /></p>
-                            <!-- 不是会员的时候 显示<p class="list-top"><img src="../common/img/center/tequan-grey.png" /></p>-->
-                            <p class="list-bott">会员特权</p>
-                        </li>
-                    </ul>
+            <div class="new-body">
+            	<!--会员信息-->
+            	<div class="m-info">
+                	<div class="m-photo"><span><img src="../common/img/center/img1.jpg" /></span></div>
+                	<div class="m-information">
+                    	<p>
+                            <b>欢迎您！<span>希丹Zidance</span></b>
+                            <i><img width="40" height="40" src="../common/img/center/tequan2.png" /></i><em>非活动商品享9.5折特权</em>
+                            <!--不是会员 不显示 上面一段-->
+                        </p>
+                        <p class="small">
+                        	<span>昵称：<b>希丹Zidance</b></span>
+                            <span><a href="###" class="a1">会员信息</a><a href="###" class="a2">会员信息</a><a href="###" class="a3">会员信息</a></span>
+                            <span>会员等级：<b>普通会员</b></span>
+                            <span class="last">注册时间：2015年12月12日</span>
+                        </p>
+                    </div>
                     <div class="clr"></div>
                 </div>
-                <div class="c-info">
-                	<ul>
-                    	<li>
-                        	<span class="s1"></span>
-                            <p>邮箱 : 未绑定<a href="###">绑定</a></p>
-                        </li>
-                        <li>
-                        	<span class="s2"></span>
-                            <p>手机号 : 15880040158</p>
-                        </li>
-                        <li>
-                        	<span class="s3"></span>
-                            <p>登录密码 : 已设置<a href="###">更换</a></p>
-                        </li>
-                    </ul>
-                    <div class="clr"></div>
+                <!--会员信息 end-->
+                <!--订单管理-->
+                <div class="o-info">
+                	<div class="o-title">
+                    	<p class="o-line"></p>
+                    	<p class="o-font">订单管理</p>
+                    </div>
+                	<div class="o-list">
+                    	<ul>
+                        	<li>
+                            	<a href="###">
+                            		<p class="num">2</p>
+                                    <p class="detail">待付款订单</p>
+                            	</a>
+                            </li>
+                            <li>
+                            	<a href="###">
+                            		<p class="num">12</p>
+                                    <p class="detail">待发货订单</p>
+                            	</a>
+                            </li>
+                            <li>
+                            	<a href="###">
+                            		<p class="num">10</p>
+                                    <p class="detail">待收货订单</p>
+                            	</a>
+                            </li>
+                            <li class="last">
+                            	<a href="###">
+                            		<p class="num">5</p>
+                                    <p class="detail">待评价订单</p>
+                            	</a>
+                            </li>
+                        </ul>
+                    	<div class="clr"></div>
+                    </div>
                 </div>
-                <!--是会员的时候显示-->
-                <!--
-                <div class="tequan">
-                	<p>非活动商品享9.5折特权</p>
-                    <span class="vip"><img src="../common/img/center/tequan1.png" /></span>
+            	<!--订单管理 end-->
+                <!--收藏管理-->
+                <div class="o-info" style="padding-bottom:18px;">
+                	<div class="o-title">
+                    	<p class="o-line"></p>
+                    	<p class="o-font">收藏管理</p>
+                    </div>
+                	<div class="o-list">
+                    	<ul class="two">
+                        	<li>
+                            	<a href="###">
+                            		<p class="num">2</p>
+                                    <p class="detail">待付款订单</p>
+                            	</a>
+                            </li>
+                            <li class="last">
+                            	<a href="###">
+                            		<p class="num">12</p>
+                                    <p class="detail">待发货订单</p>
+                            	</a>
+                            </li>
+                        </ul>
+                    	<div class="clr"></div>
+                    </div>
                 </div>
-                -->
+            	<!--收藏管理 end-->
+                <!--积分信息-->
+                <div class="o-info">
+                	<div class="o-title">
+                    	<p class="o-line"></p>
+                    	<p class="o-font">积分信息</p>
+                    </div>
+                	<div class="o-list" style="margin:33px 0 18px;">
+                    	<ul class="three">
+                        	<li>
+                            	<p><i>当前总积分：</i><span>1988</span></p>
+                            </li>
+                            <li>
+                            	<p><i>可用积分：</i><span>988</span></p>
+                            </li>
+                            <li>
+                            	<p><i>已使用积分：</i><span>1000</span></p>
+                            </li>
+                        </ul>
+                    	<div class="clr"></div>
+                    </div>
+                    <div class="go-a">
+                    	<a href="###">前往积分商城兑换礼品 >></a>
+                        <a href="###">积分获取详情请登录App查询 >></a>
+                    </div>
+                </div>
+            	<!--积分信息 end-->
+                <!--官方信息-->
+                <div class="o-info">
+                	<div class="o-title">
+                    	<p class="o-line"></p>
+                    	<p class="o-font">官方信息</p>
+                    </div>
+                    <div class="o-list">
+                    	<div class="o-ma">
+                        	<a href="###"><img src="../common/img/center/weixin-g.jpg" /></a>
+                            <p>官方微博</p>
+                        </div>
+                        <div class="o-ma">
+                        	<a href="###"><img src="../common/img/center/weixin-g.jpg" /></a>
+                            <p>官方微信</p>
+                        </div>
+                    </div>
+                	
+                </div>
+            	<!--官方信息 end-->
+               
+                
+                
+                
             </div>
         </div>
         <div class="clr"></div>
