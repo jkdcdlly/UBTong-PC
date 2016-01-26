@@ -14,8 +14,9 @@
 .center .main .c-left .c-nav li a.act,.center .main .c-left .c-nav li a:hover{ border:none; border-left:4px solid #339900; background:url(../img/center/nav-left-bg.png) repeat-y right #fff; color:#339900; font-weight:bold;}
 
 /*-----------------------------------右边--会员中心首页--------------------------------------*/
-.center .main .c-right .title{ margin:0 50px 0 30px; padding:24px 0 15px; border-bottom:1px solid #e7e7e7;} 
+.center .main .c-right .title{ margin:0 30px; padding:24px 0 15px; border-bottom:1px solid #e7e7e7;} 
 .center .main .c-right .title h1{ height:26px; line-height:26px; border-left:4px solid #339900; color:#339900; font-size:20px; font-weight:bold; padding-left:9px;}
+.center .main .c-right .title h1 .c-date{ float:right; color:#ff3300; font-size:12px; font-weight:normal; *margin-top:-26px;}
 .center .main .c-right .c-body{ padding:0 50px 0 30px;}
 .center .main .c-right .c-body h2{ font-size:30px; color:#000; padding:37px 0 10px 16px;}
 .center .main .c-right .c-body .c-date{ color:#e25611; font-size:12px; margin-left:16px; padding-left:21px; background:url(../img/center/date.png) no-repeat left center; height:18px; line-height:18px;}
@@ -36,6 +37,55 @@
 .center .main .c-right .c-body .tequan p{ display:inline-block; font-size:20px; width:210px; padding:0 43px 0 53px; height:54px; line-height:54px; color:#fff; background:#ff3300;}
 .center .main .c-right .c-body .tequan .vip{ display:block; width:55px; height:55px; position:absolute; top:-25px; left:-25px;}
 .center .main .c-right .c-body .tequan .vip img{ width:100%; height:100%;}
+
+
+
+
+.center .main .c-right .new-body{ padding:0 30px;}
+.center .main .c-right .new-body .m-info{ margin:39px 0 35px;}
+.center .main .c-right .new-body .m-info .m-photo{ margin:0 25px 0 18px; float:left;}
+.center .main .c-right .new-body .m-info .m-photo span{ display:block; width:100px; height:100px; border-radius:50%; border:3px solid #e6e6e6;}
+.center .main .c-right .new-body .m-info .m-photo span img{ width:100px; height:100px;}
+.center .main .c-right .new-body .m-info .m-information{ float:left; width:700px;}
+.center .main .c-right .new-body .m-info .m-information p{ color:#444444; font-size:20px; height:46px; line-height:46px;}
+.center .main .c-right .new-body .m-info .m-information p b,.center .main .c-right .new-body .m-info .m-information p i,.center .main .c-right .new-body .m-info .m-information p em{ float:left; font-weight:normal;}
+.center .main .c-right .new-body .m-info .m-information p i{ display:inline-block; width:40px; height:40px; margin:0 7px 0 12px;}
+.center .main .c-right .new-body .m-info .m-information p em{ color:#ff3300; font-size:14px;}
+.center .main .c-right .new-body .m-info .m-information p.small{ font-size:14px; color:#bdbdbd; margin-top:4px; width:100%;}
+.center .main .c-right .new-body .m-info .m-information p.small span{ float:left; padding-right:12px; background:url(../img/center/line.jpg) no-repeat right center; margin-right:13px; height:46px;}
+.center .main .c-right .new-body .m-info .m-information p.small span.last{ background:none;}
+.center .main .c-right .new-body .m-info .m-information p.small b{ color:#444444; float:none;}
+.center .main .c-right .new-body .m-info .m-information p.small a{ display:inline-block; *display:block; *float:left; width:32px; height:32px; background-size:32px 32px; text-indent:-9999px; margin-top:7px; margin-right:10px;}
+.center .main .c-right .new-body .m-info .m-information p.small a.a1{ background:url(../img/center/dot1.jpg) no-repeat center;}
+.center .main .c-right .new-body .m-info .m-information p.small a.a2{ background:url(../img/center/dot2.jpg) no-repeat center;}
+.center .main .c-right .new-body .m-info .m-information p.small a.a3{ background:url(../img/center/dot3.jpg) no-repeat center;}
+
+
+
+.center .main .c-right .new-body .o-info{ padding-bottom:29px;}
+.center .main .c-right .new-body .o-info ul.two li{ width:50%;*width:49.9%;}
+.center .main .c-right .new-body .o-info ul.three li{ width:33.33%; border-right:none; text-align:center;}
+.center .main .c-right .new-body .o-info ul.three li p{ width:100%; font-size:14px; color:#666666; line-height:87px;}
+.center .main .c-right .new-body .o-info ul.three li p i{ font-style:normal; }
+.center .main .c-right .new-body .o-info ul.three li p span{color:#fc675e;font-size:32px;}
+
+
+.center .main .c-right .new-body .o-info .o-title{ height:24px; line-height:24px; position:relative;}
+.center .main .c-right .new-body .o-info .o-title .o-line{ width:100%; position:absolute; left:0; top:0; height:11px; border-bottom:1px solid #e7e7e7;}
+.center .main .c-right .new-body .o-info .o-title .o-font{ position:absolute; left:0; top:0; padding:0 18px 0 11px; background:#fff; color:#339900; font-size:16px;}
+.center .main .c-right .new-body .o-info .o-list{ width:100%; margin:33px 0;}
+.center .main .c-right .new-body .o-info .o-list li{ width:25%; *width:24.8%; float:left; border-right:1px solid #e7e7e7; box-sizing:border-box; height:87px; text-align:center;}
+.center .main .c-right .new-body .o-info .o-list li a{ display:block;}
+.center .main .c-right .new-body .o-info .o-list li a p.num{ font-size:32px; color:#fc675e; line-height:61px; overflow:hidden;}
+.center .main .c-right .new-body .o-info .o-list li a p.detail{ color:#666666; font-size:14px; margin-top:3px; line-height:18px;}
+.center .main .c-right .new-body .o-info .o-list li.last{ border-right:none;}
+.center .main .c-right .new-body .o-info .go-a{ text-align:center;}
+.center .main .c-right .new-body .o-info .go-a a{ display:block; line-height:23px; font-size:12px; color:#5784f8;}
+.center .main .c-right .new-body .o-info .go-a a:hover{ text-decoration:underline;}
+
+.center .main .c-right .new-body .o-info .o-list .o-ma{ width:156px;display:inline-block; margin-right:20px; *float:left;}
+.center .main .c-right .new-body .o-info .o-list .o-ma img{ width:156px; height:156px;}
+.center .main .c-right .new-body .o-info .o-list .o-ma p{ text-align:center; color:#666666; font-size:14px;}
 
 
 /*-----------------------------------------------------------会员信息-----------------------------------------------------------*/
